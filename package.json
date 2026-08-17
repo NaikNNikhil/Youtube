@@ -1,0 +1,16 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "next level backend learning ",
+  "keywords": [
+    "javscripts",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Nikhil Naik",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

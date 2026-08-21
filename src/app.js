@@ -22,7 +22,7 @@ app.use(cookieParser())
 
 
  //routes declaration
- app.use("/api/vi/users", userRouter)
+ app.use("/api/v1/users", userRouter)
 
 
 //http:localhost:8000/api/v1/users/register

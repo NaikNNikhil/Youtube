@@ -14,8 +14,17 @@ app.use(express.urlencoded({extended:true,limit:"16kb"}))
 app.use(express.static("public"))
 app.use(cookieParser())
 
-app.get("/", (req, res) => {
-    res.send("Server is running successfully!");
-});
+
+
+// routes import
+
+ import userRouter from './routes/user.routes.js'
+
+
+ //routes declaration
+ app.use("/api/vi/users", userRouter)
+
+
+//http:localhost:8000/api/v1/users/register
 
 export {app}
